@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+
+<html lang="ru">
+  <head>
+    {% load static %}
+    <link rel="stylesheet" href={% static "css/bootstrap.min.css" %}>
+  </head>
+  <body>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Активная</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">sd список</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="{% url 'main:main_list' %}">Действие</a></li>
+          <li><a class="dropdown-item" href="#">Другое действие</a></li>
+          <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ссылка</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Отключенная</a>
+      </li>
+    </ul>
+    
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem" >
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок карточки</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem" >
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок карточки</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem" >
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок карточки</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card" style="width: 18rem" >
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок карточки</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body> 
+</html> 
